@@ -32,7 +32,7 @@ const options = merge(common, {
                 popup: 'popup',
                 article: 'article',
                 develop: 'develop',
-                contentScripts: ['contentScripts/index']
+                contentScripts: ['contentScripts']
             }
         })
     ]

@@ -73,7 +73,9 @@ module.exports = {
         new VueLoaderPlugin(),
         //set global variables
         new webpack.ProvidePlugin({}),
-        new CleanWebpackPlugin(['./../dist/']),
+        new CleanWebpackPlugin(['dist/'], {
+            root: path.resolve(__dirname, '../')
+        }),
         new CopyWebpackPlugin([
             { from: 'assets', to: 'assets' },
             { from: 'manifest.json', to: 'manifest.json', flatten: true }
