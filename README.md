@@ -13,8 +13,6 @@
 
  > $ npm run build
 
-将 zip/ 路径下的 .zip 文件上传 Google 扩展应用管理
-
 ## 技术栈
 
 - [x] [VUE](https://cn.vuejs.org/v2/guide/)
