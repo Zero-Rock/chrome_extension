@@ -1,17 +1,24 @@
+# chrome-extension
 
 ## 说明
 
 
 ### 本地开发 
+```bash
 
- > $ npm run dev
+npm run dev
+
+```
 
 
-访问 chrome://extensions/ ，开启 "开发者模式"，加载已解压的扩展程序，文件夹路径指向 dist/
+访问 chrome://extensions ，开启 "开发者模式"，加载已解压的扩展程序，文件夹路径指向 dist/
 
 ### 提交前打包 
+```bash
 
- > $ npm run build
+npm run build
+
+```
 
 ## 技术栈
 
